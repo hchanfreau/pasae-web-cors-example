@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Prueba de CORS para pasae</title>
+        <script src="jquery-3.1.1.js"></script>
+        <script src="utils.js"></script>
+    </head>
+
+    <body>
+        <div>
+            <p class="greeting-id">ID </p>
+            <p class="greeting-content">Contenido</p>
+        </div>
+        <br><br>
+        <div>
+        	URL: <input class="url" value="http://localhost:8080/greeting?access_token="/>
+        </div>
+        <div>
+        	Token: <input class="token"/>
+        </div>
+        <div>
+        	<button onclick="call();">Ejecutar servicio rest</button>
+        </div>
+    </body>
+</html>
